@@ -34,6 +34,13 @@ class MainActivity : ComponentActivity() {
 abstract class Shape(x: Int, y: Int) {
 
 }
+
+
+@Composable
+class Nonagon(side : Int): Shape(x,y){
+
+}
+
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
