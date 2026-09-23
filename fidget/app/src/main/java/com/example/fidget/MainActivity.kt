@@ -35,6 +35,12 @@ abstract class Shape(x: Int, y: Int, val color: String = "blue") {
 
 }
 
+class Circle(x: Int, y:Int, val radius: Int):Shape(x,y) {
+
+}
+
+
+
 
 @Composable
 class Nonagon(side : Int): Shape(x,y){
