@@ -34,6 +34,13 @@ class MainActivity : ComponentActivity() {
 abstract class Shape(x: Int, y: Int) {
 
 }
+
+class Circle(x: Int, y:Int, val radius: Int):Shape(x,y) {
+
+}
+
+
+
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
