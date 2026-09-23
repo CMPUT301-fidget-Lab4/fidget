@@ -31,7 +31,11 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-abstract class Shape(x: Int, y: Int) {
+abstract class Shape(x: Int, y: Int, val color: String = "blue") {
+
+}
+
+class Diamond: Shape() {
 
 }
 
