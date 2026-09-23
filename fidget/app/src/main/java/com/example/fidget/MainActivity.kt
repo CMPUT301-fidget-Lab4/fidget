@@ -34,6 +34,10 @@ class MainActivity : ComponentActivity() {
 abstract class Shape(x: Int, y: Int) {
 
 }
+
+class Diamond: Shape() {
+
+}
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
