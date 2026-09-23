@@ -35,6 +35,12 @@ abstract class Shape(x: Int, y: Int, val color: String = "blue") {
 
 }
 
+
+@Composable
+class Nonagon(side : Int): Shape(x,y){
+
+}
+
 class Diamond: Shape() {
 
 }
