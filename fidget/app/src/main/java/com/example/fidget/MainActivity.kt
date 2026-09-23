@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-abstract class Shape(x: Int, y: Int) {
+abstract class Shape(x: Int, y: Int, val color: String = "blue") {
 
 }
 
@@ -41,6 +41,19 @@ class Circle(x: Int, y:Int, val radius: Int):Shape(x,y) {
 
 
 
+
+@Composable
+class Nonagon(side : Int): Shape(x,y){
+
+}
+
+class Diamond: Shape() {
+
+}
+
+class Circle(Radius: Int, Center: Int) : Shape(Radius, Center) {
+    
+}
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
