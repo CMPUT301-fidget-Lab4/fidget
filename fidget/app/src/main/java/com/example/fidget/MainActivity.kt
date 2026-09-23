@@ -31,6 +31,10 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
+abstract class Shape(x: Int, y: Int) {
+
+}
+@Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
