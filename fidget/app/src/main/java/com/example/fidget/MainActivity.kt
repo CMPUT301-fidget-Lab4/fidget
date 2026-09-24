@@ -48,6 +48,13 @@ class Diamond: Shape() {
 class Circle(Radius: Int, Center: Int) : Shape(Radius, Center) {
     
 }
+
+//
+class Cross(Height:Int, CrossLength: Int ,Colour: String ) : Shape(Height,CrossLength, Colour )
+{
+
+}
+
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
