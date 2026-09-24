@@ -41,6 +41,13 @@ class Nonagon(side : Int): Shape(x,y){
 
 }
 
+class Diamond: Shape() {
+
+}
+
+class Circle(Radius: Int, Center: Int) : Shape(Radius, Center) {
+    
+}
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
