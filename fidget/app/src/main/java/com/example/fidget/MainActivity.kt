@@ -35,7 +35,7 @@ abstract class Shape(x: Int, y: Int) {
 
 }
 
-class Circle(x: Int, y:Int, val radius: Int):Shape(x,y) {
+class Circle(x: Int, y:Int, val radius: Int, val color: String = "blue"):Shape(x,y) {
 
 }
 
