@@ -1,7 +1,9 @@
 # fidget
+
 Lab4
 
 
 
-Name: Marko Kljakic
-ccid: kljakic
+Name: Maksym Andriiashchuk
+ccid: andriias
+
